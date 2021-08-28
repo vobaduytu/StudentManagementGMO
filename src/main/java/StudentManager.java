@@ -1,10 +1,6 @@
-import repository.IStudentRepository;
-import repository.InMemStudentRepository;
-import service.IStudentService;
-import service.StudentService;
-
-import java.io.IOException;
 import java.util.Scanner;
+
+import service.IStudentService;
 
 public class StudentManager {
     public static final int ADD_STUDENT = 1;
